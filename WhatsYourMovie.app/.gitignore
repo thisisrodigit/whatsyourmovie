@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Database
+backend/database/movies.db
+backend/database/*.db
+
+# Environment variables
+backend/.env
+
+# Production build
+frontend/build/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+

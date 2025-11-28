@@ -1,0 +1,64 @@
+===================================================
+IMPORTANT: TMDB API KEY CONFIGURATION
+===================================================
+
+You need to create a file called ".env" in the backend folder.
+
+STEP 1: Create the file
+------------------------
+In the backend folder, create a new file named: .env
+(Yes, it starts with a dot and has no extension)
+
+To create it on Windows:
+1. Open Notepad
+2. Paste the content below (with YOUR API key)
+3. Save As → File name: .env (include quotes)
+4. Save as type: All Files (*)
+5. Save in the backend folder
+
+STEP 2: File Content
+--------------------
+Copy and paste this into your .env file:
+
+PORT=5000
+JWT_SECRET=your_super_secret_jwt_key_change_in_production
+TMDB_API_KEY=YOUR_ACTUAL_API_KEY_HERE
+
+STEP 3: Get your TMDB API Key
+------------------------------
+1. Go to https://www.themoviedb.org/
+2. Sign up for a free account
+3. Go to Settings → API
+4. Request an API Key (choose "Developer")
+5. Copy your API key
+6. Replace "YOUR_ACTUAL_API_KEY_HERE" with your key
+
+Example (with fake key):
+PORT=5000
+JWT_SECRET=your_super_secret_jwt_key_change_in_production
+TMDB_API_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+
+STEP 4: Verify
+--------------
+Your .env file should be:
+- Located in: backend\.env
+- Contains the 3 lines above
+- Has YOUR actual TMDB API key
+
+===================================================
+
+TROUBLESHOOTING:
+
+Q: Can't see .env files in Windows Explorer?
+A: Enable "Show hidden files" in File Explorer options
+
+Q: File keeps saving as .env.txt?
+A: In Notepad, use quotes when saving: ".env"
+   And select "All Files (*)" as file type
+
+Q: Movies won't populate?
+A: Double-check your API key is correct
+   Make sure there are no extra spaces
+
+===================================================
+

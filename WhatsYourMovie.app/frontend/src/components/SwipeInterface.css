@@ -1,0 +1,258 @@
+.swipe-container {
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.swipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 16px 24px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.swipe-stats {
+  display: flex;
+  gap: 24px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-icon {
+  font-size: 24px;
+}
+
+.stat-count {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.swipe-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.swipe-card {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  cursor: grab;
+  user-select: none;
+  position: relative;
+}
+
+.swipe-card:active {
+  cursor: grabbing;
+}
+
+.swipe-card.swipe-like {
+  animation: swipeRight 0.3s ease-out forwards;
+}
+
+.swipe-card.swipe-dislike {
+  animation: swipeLeft 0.3s ease-out forwards;
+}
+
+@keyframes swipeRight {
+  to {
+    transform: translateX(500px) rotate(20deg);
+    opacity: 0;
+  }
+}
+
+@keyframes swipeLeft {
+  to {
+    transform: translateX(-500px) rotate(-20deg);
+    opacity: 0;
+  }
+}
+
+.swipe-indicator {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.like-badge,
+.dislike-badge {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 800;
+  animation: scaleIn 0.3s ease;
+}
+
+.like-badge {
+  background: #10b981;
+  color: white;
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.4);
+}
+
+.dislike-badge {
+  background: #ef4444;
+  color: white;
+  box-shadow: 0 8px 24px rgba(239, 68, 68, 0.4);
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.card-image {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 24px;
+}
+
+.card-info h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.card-info .year {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.rating {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f59e0b;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.swipe-actions {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.swipe-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.swipe-btn:hover {
+  transform: scale(1.1);
+}
+
+.swipe-btn:active {
+  transform: scale(0.95);
+}
+
+.dislike-btn {
+  background: white;
+  color: #ef4444;
+}
+
+.dislike-btn:hover {
+  background: #fee2e2;
+}
+
+.like-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.like-btn:hover {
+  box-shadow: 0 12px 32px rgba(102, 126, 234, 0.4);
+}
+
+.no-more-movies {
+  text-align: center;
+  padding: 48px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.no-more-movies h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.no-more-movies p {
+  color: #6b7280;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+  .card-image {
+    height: 400px;
+  }
+
+  .swipe-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+  }
+}
+

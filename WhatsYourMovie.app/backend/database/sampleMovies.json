@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": "18,80",
+    "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    "description": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden.",
+    "rating": 8.7,
+    "popularity": 95.0,
+    "vote_count": 24000
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "year": 1972,
+    "genres": "18,80",
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family.",
+    "rating": 8.7,
+    "popularity": 92.0,
+    "vote_count": 18000
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": "28,80,18",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "description": "Batman raises the stakes in his war on crime with the help of Lt. Jim Gordon and District Attorney Harvey Dent.",
+    "rating": 8.5,
+    "popularity": 98.0,
+    "vote_count": 28000
+  },
+  {
+    "id": 4,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": "53,80",
+    "poster": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    "description": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper.",
+    "rating": 8.5,
+    "popularity": 88.0,
+    "vote_count": 25000
+  },
+  {
+    "id": 5,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": "35,18,10749",
+    "poster": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+    "description": "A man with a low IQ has accomplished great things in his life and been present during significant historic events.",
+    "rating": 8.4,
+    "popularity": 86.0,
+    "vote_count": 24500
+  },
+  {
+    "id": 6,
+    "title": "Inception",
+    "year": 2010,
+    "genres": "28,878,12",
+    "poster": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life.",
+    "rating": 8.4,
+    "popularity": 94.0,
+    "vote_count": 31000
+  },
+  {
+    "id": 7,
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": "28,878",
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "description": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+    "rating": 8.2,
+    "popularity": 90.0,
+    "vote_count": 22000
+  },
+  {
+    "id": 8,
+    "title": "Interstellar",
+    "year": 2014,
+    "genres": "12,18,878",
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "description": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel.",
+    "rating": 8.3,
+    "popularity": 91.0,
+    "vote_count": 27000
+  },
+  {
+    "id": 9,
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "genres": "12,14,28",
+    "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "description": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor.",
+    "rating": 8.4,
+    "popularity": 89.0,
+    "vote_count": 21000
+  },
+  {
+    "id": 10,
+    "title": "Fight Club",
+    "year": 1999,
+    "genres": "18",
+    "poster": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "description": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy.",
+    "rating": 8.4,
+    "popularity": 87.0,
+    "vote_count": 25500
+  }
+]
+
